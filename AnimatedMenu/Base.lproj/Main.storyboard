@@ -39,50 +39,53 @@
                                             <action selector="toggleMenu:" destination="BYZ-38-t0r" eventType="touchUpInside" id="9Fs-SS-j7s"/>
                                         </connections>
                                     </button>
-                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="46" translatesAutoresizingMaskIntoConstraints="NO" id="c9I-GI-xPN">
-                                        <rect key="frame" x="18.5" y="50" width="338" height="50"/>
+                                    <stackView opaque="NO" contentMode="scaleToFill" distribution="equalSpacing" spacing="46" translatesAutoresizingMaskIntoConstraints="NO" id="c9I-GI-xPN">
+                                        <rect key="frame" x="30.5" y="48" width="314" height="44"/>
                                         <subviews>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Investment" translatesAutoresizingMaskIntoConstraints="NO" id="HB7-qR-GRP">
-                                                <rect key="frame" x="0.0" y="0.0" width="50" height="50"/>
+                                                <rect key="frame" x="0.0" y="0.0" width="44" height="44"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="50" id="k3T-0T-cQN"/>
+                                                    <constraint firstAttribute="width" constant="44" id="k3T-0T-cQN"/>
+                                                    <constraint firstAttribute="height" constant="44" id="n2o-PS-Koq"/>
                                                 </constraints>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="line_chart" translatesAutoresizingMaskIntoConstraints="NO" id="T7J-pd-g0X">
-                                                <rect key="frame" x="96" y="0.0" width="50" height="50"/>
+                                                <rect key="frame" x="90" y="0.0" width="44" height="44"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="50" id="pFu-pv-laZ"/>
+                                                    <constraint firstAttribute="height" constant="44" id="ZxO-iV-LEY"/>
+                                                    <constraint firstAttribute="width" constant="44" id="pFu-pv-laZ"/>
                                                 </constraints>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="training" translatesAutoresizingMaskIntoConstraints="NO" id="GJn-FH-9D6">
-                                                <rect key="frame" x="192" y="0.0" width="50" height="50"/>
+                                                <rect key="frame" x="180" y="0.0" width="44" height="44"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="50" id="YIS-jR-E0r"/>
+                                                    <constraint firstAttribute="width" constant="44" id="YIS-jR-E0r"/>
+                                                    <constraint firstAttribute="height" constant="44" id="jjS-2H-gSi"/>
                                                 </constraints>
                                             </imageView>
                                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="search" translatesAutoresizingMaskIntoConstraints="NO" id="bXj-gX-L2G">
-                                                <rect key="frame" x="288" y="0.0" width="50" height="50"/>
+                                                <rect key="frame" x="270" y="0.0" width="44" height="44"/>
                                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="width" constant="50" id="Lfv-sP-1Lc"/>
+                                                    <constraint firstAttribute="height" constant="44" id="LQa-yL-qo9"/>
+                                                    <constraint firstAttribute="width" constant="44" id="Lfv-sP-1Lc"/>
                                                 </constraints>
                                             </imageView>
                                         </subviews>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="50" id="ZRM-oC-j0m"/>
+                                            <constraint firstAttribute="height" constant="44" id="ZRM-oC-j0m"/>
+                                            <constraint firstAttribute="width" constant="314" id="dY8-76-BA4"/>
                                         </constraints>
                                     </stackView>
                                 </subviews>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <constraints>
-                                    <constraint firstAttribute="trailing" secondItem="c9I-GI-xPN" secondAttribute="trailing" constant="18.5" id="VfY-Bq-knF"/>
                                     <constraint firstAttribute="height" constant="110" id="bqb-My-P6c"/>
                                     <constraint firstItem="c9I-GI-xPN" firstAttribute="centerX" secondItem="odd-Wn-oKh" secondAttribute="centerX" id="c9u-dJ-PWK"/>
-                                    <constraint firstAttribute="bottom" secondItem="c9I-GI-xPN" secondAttribute="bottom" constant="10" id="cEg-wo-Sq0"/>
-                                    <constraint firstItem="c9I-GI-xPN" firstAttribute="leading" secondItem="odd-Wn-oKh" secondAttribute="leading" constant="18.5" id="mBn-rZ-l86"/>
+                                    <constraint firstAttribute="bottom" secondItem="c9I-GI-xPN" secondAttribute="bottom" constant="18" id="cEg-wo-Sq0"/>
                                 </constraints>
                             </view>
                         </subviews>

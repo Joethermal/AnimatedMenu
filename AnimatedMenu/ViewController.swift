@@ -31,7 +31,7 @@ class ViewController: UIViewController {
     @IBAction func toggleMenu(_ sender: UIButton) {
         if darkFillView.transform == .identity {
         UIView.animate(withDuration: 0.3, animations: {
-            self.darkFillView.transform = CGAffineTransform(scaleX: 11, y: 11)
+            self.darkFillView.transform = CGAffineTransform(scaleX: 20, y: 20)
             self.menuView.transform = CGAffineTransform(translationX: 0, y: -50)
             self.toggleMenuButton.transform = CGAffineTransform(rotationAngle: 3.14)
         }) { (true) in
