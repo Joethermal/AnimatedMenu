@@ -3,4 +3,4 @@ Animated menu
 
 Swift 4.2
 
-<img width="337" alt="screen shot 2018-09-19 at 10 38 06 pm" src="https://user-images.githubusercontent.com/26833905/45748527-1c71ca80-bc5d-11e8-9be2-f94481bed71d.png">
+<img width="335" alt="screen shot 2018-09-20 at 7 40 24 am" src="https://user-images.githubusercontent.com/26833905/45776943-86fc2800-bca8-11e8-977a-0a51f8e794db.png">
